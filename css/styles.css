@@ -9,13 +9,6 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 560%;
     color: #66BFBF;
-
-}
-
-hr{
-    border-top: 6px dotted #EAF6F6;
-    width: 6%;
-    margin: 120px auto;
 }
 
 h2 {
@@ -32,15 +25,27 @@ h3 {
 
 }
 
+hr{
+    border-top: 6px dotted #EAF6F6;
+    width: 6%;
+    margin: 120px auto;
+}
+
 p {
     font-size: 1rem;
     font-weight: normal;
     line-height: 2;
 }
 
-.intro {
-    width: 45%;
-    margin: 100px auto auto auto;
+a {
+    color: #11999e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 div.top-container {
@@ -50,17 +55,8 @@ div.top-container {
     margin-bottom: 50px;
 }
 
-p.getintouch {
-    width: 45%;
-    margin: 30px auto 50px;
-}
-
 .Pro {
     text-decoration: underline;
-}
-
-.bottom-cloud {
-    position: absolute;
 }
 
 .top-cloud {
@@ -68,13 +64,14 @@ p.getintouch {
     left : 200px;
 }
 
-div.bottom-container {
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    background-color: #66bfbf;
+.bottom-cloud {
+    position: absolute;
 }
 
+.intro {
+    width: 45%;
+    margin: 100px auto auto auto;
+}
 
 .skill-row {
     width: 50%;
@@ -93,6 +90,11 @@ div.bottom-container {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+p.getintouch {
+    width: 45%;
+    margin: 30px auto 50px;
 }
 
 .btn {
@@ -123,14 +125,10 @@ div.bottom-container {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
-
-  a {
-      color: #11999e;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      margin: 10px 10px;
-      text-decoration: none;
-  }
-
-  a:hover {
-      color: #EAF6F6;
-  }
+  
+div.bottom-container {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #66bfbf;
+}
